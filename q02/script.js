@@ -1,3 +1,4 @@
+//solved
 let x = parseInt(prompt("digite um valor: "));
 let soma= 0;
 

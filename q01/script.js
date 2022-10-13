@@ -1,3 +1,4 @@
+//solved
 let x = parseInt(prompt(""));
 
 while(x != 0){
