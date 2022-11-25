@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>par ou impar game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="pag">
+    <form action="javascript:sorte();void(0)">
+      <table align="center" id="table">
+        <tr>
+          <td align="center" colspan="3">
+            escolha entre 0 e 9:
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            par <input type="radio" id="radio2" name="grupo" />
+          </td>
+          <td align="center">
+            <input type="text" align="center" size=5" maxlength="1" id="vc" />
+          </td>
+          <td align="left">
+            <input type="radio" id="radio1" name="grupo" /> impar
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td align="center">
+            <input type="submit" value="CONFIRMAR" id="ok" />
+          </td>
+          <td>
+          </td>
+        </tr>
+      </table>
+      <table align="center" id="res">
+        <tr id="rest">
+          <td>
+            <div>
+              <input type="text" id="resp" size="70" />
+              <div>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>
